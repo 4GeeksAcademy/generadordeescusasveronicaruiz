@@ -12,8 +12,6 @@ window.onload = function() {
 
 
 
-
-
 let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
 // let quien = who[Math.floor(Math.random()* who.length)];
 let quien = who[numeroAleatoriomath(who.length)];
@@ -39,17 +37,6 @@ let cuando = when[numeroAleatoriomath(when.length)];
 let total = quien +" "+  queHizo + " " + queFue + " "+ cuando;
 
 console.log(total);
-
-document.getElementById("escusaboton").textContent = total
-
-
-
-
-
-
-
-
-
 
 
   console.log("Hello Rigo from the console!");
